@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>孕育宝典</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+
+</head>
+<body>
+    <div id="wrap">
+        <div id="search_box">
+                <input  id="search_text" type="text" placeholder="请输入需要搜索内容..."/>
+                <img src="img/search.png"/>
+
+        </div>
+        <header>
+            <a href="#" id="back_btn" class="back_btn"></a>
+            <h1 class="title">孕育宝典</h1>
+            <span class="sel_btn"></span>
+        </header>
+        <section>
+            <div id="myScroll">
+                <div class="scroll">
+                <div class="main main_body show">
+                    <ul class="main_img">
+                        <li title="幼儿常见病预防"><img src="img/pic6.png"/></li>
+                        <li title="孕前准备"><img src="img/pic1.png"/></li>
+                        <li title="孕中准备"><img src="img/pic2.png"/></li>
+                        <li title="产前知识"><img src="img/pic3.png"/></li>
+                        <li title="分娩产后"><img src="img/pic4.png"/></li>
+                        <li title="幼儿成长指标"><img src="img/pic5.png"/></li>
+                    </ul>
+                </div>
+                <div class="main page_1"></div>
+                <div class="main page_2"></div>
+                <div class="main page_3">
+                    <div class="update">
+                        <span>有可更新的数据时，是否自动更新</span><a href="#" class="update_btn"></a>
+                    </div>
+                    <div class="font_size">
+                        <span>字体大小</span>
+                        <div class="size_btn">
+                            <label for="sm"><input type="radio" id="sm" name="size" data-id="14"/>小</label>
+                            <label for="mid"><input type="radio" id="mid" name="size" data-id="16"/>中</label>
+                            <label for="big"><input type="radio" id="big" name="size" data-id="18"/>大</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="main page_4">
+                    <div class="body_1"></div>
+                    <div class="body_2"></div>
+                </div>
+                <div class="main page_5">
+                   <div class="search_result"></div>
+               </div>
+            </div>
+        </div>
+
+        </section>
+        <footer>
+            <ul>
+                <li class="on" title="first_page"><a href="#">首页</a><a href="#">home</a></li>
+                <li title="select_page"><a href="#">收藏</a><a href="#">favorite</a></li>
+                <li title="history_page"><a href="#">历史记录</a><a href="#">history</a></li>
+                <li title="set_page"><a href="#">设置</a><a href="#">config</a></li>
+            </ul>
+            <i class="save_num"></i>
+        </footer>
+    </div>
+    <script src="data.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/iscroll-probe.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
